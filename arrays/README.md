@@ -10,4 +10,4 @@ Daily DSA problem solving using Java.
 - hashMap
 - prefixsum
 - recursion
-- -sorting
+- sorting
