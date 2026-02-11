@@ -1,5 +1,5 @@
  */
-Approach:
+Approach: 
 - Use two pointers
 - One pointer keeps track of position for non-zero element
 - Traverse array and swap when non-zero is found
