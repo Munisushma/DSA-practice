@@ -1,1 +1,30 @@
+*/
+Approach:
+- Use two pointers
+- One pointer keeps track of position for non-zero element
+- Traverse array and swap when non-zero is found
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
+public class MoveZeroes {
+    public static void moveZeroes(int[] nums) {
+
+        int j = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+
+            if (nums[i] != 0) {
+
+                // swapping non-zero to correct position
+                int temp = nums[i];
+                nums[i] = nums[j];
+                nums[j] = temp;
+
+                j++;
+            }
+        }
+    }
+}
 
