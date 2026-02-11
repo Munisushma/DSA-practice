@@ -1,4 +1,4 @@
-*/
+ */
 Approach:
 - Use two pointers
 - One pointer keeps track of position for non-zero element
