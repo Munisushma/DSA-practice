@@ -25,6 +25,10 @@ public class MoveZeroes {
                 j++;
             }
         }
+         while(j<nums.length){
+        nums[j]=0;
+        j++;
+       }
     }
 }
 
